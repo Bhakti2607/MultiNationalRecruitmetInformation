@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UstGActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="UST Global® is a leading provider of end-to-end IT services and solutions for Global 1000 companies. We use a client-centric Global Engagement Model that combines local, senior, on-site resources with the cost, scale, and quality advantages of off-shore operations.
+This client-centric focus forms the basis for how we, as a company, operate and serve our clients. Commitment to long-term client success empowers every associate to provide value and flexibility beyond the contract." />
+
+</RelativeLayout>

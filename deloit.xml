@@ -1,0 +1,444 @@
+  <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/scrollView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/aa1">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical" 
+          android:weightSum="4">
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="fill_parent"
+              android:layout_weight="6.35"
+           
+              android:orientation="vertical" >
+
+              <TextView
+                  android:id="@+id/textView1"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="DELOITTE"
+                  android:textAppearance="?android:attr/textAppearanceLarge" />
+              <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="88dp" >
+
+              
+
+              <Button
+                  android:id="@+id/button2"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignBaseline="@+id/button3"
+                  android:layout_alignBottom="@+id/button3"
+                  android:layout_marginLeft="20dp"
+                  android:layout_weight="4.63"
+                  android:text="About us" />
+               <Button
+                  android:id="@+id/button1"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentTop="true"
+                  android:layout_toRightOf="@+id/button2"
+                  android:text="Rating" />
+
+              <Button
+                  android:id="@+id/button3"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentTop="true"
+                  android:layout_marginLeft="27dp"
+                  android:layout_toRightOf="@+id/button1"
+                  android:text="weblink" />
+                  
+              </RelativeLayout>
+
+              <ImageView
+                  android:id="@+id/imageView1"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:src="@drawable/del" />
+
+              <TextView
+                  android:id="@+id/textView2"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Location: 1-8-384 and 385,
+ 3rd floor,Gowra Grand,SP Road,Begumpet,
+ Hyderabad,AP,INDIA."
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+              </LinearLayout>
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="fill_parent"
+              android:layout_marginTop="12dp"
+              android:layout_weight="1"
+              
+              android:orientation="vertical" >
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content" >
+
+                  <TextView
+                      android:id="@+id/textView3"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Level:"
+                      android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                  <TextView
+                      android:id="@+id/textView4"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="40dp"
+                      android:text="1.Aptitude Reasoning Test"
+                      android:textAppearance="?android:attr/textAppearanceSmall" />
+
+              </LinearLayout>
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content" >
+
+                  <TextView
+                      android:id="@+id/textView3"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Time:"
+                      android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                  <TextView
+                      android:id="@+id/textView4"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="40dp"
+                      android:text="40Mins for 30 questions"
+                      android:textAppearance="?android:attr/textAppearanceSmall" />
+
+              </LinearLayout>
+              
+              
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal" >
+
+                  <LinearLayout
+                      android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical" >
+
+                      <TextView
+                          android:id="@+id/textView5"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Details:"
+                          android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="vertical" >
+                      </LinearLayout>
+
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical" >
+                  </LinearLayout>
+
+                  <TextView
+                      android:id="@+id/textView6"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="30dp"
+                      android:text="The Aptitude reasoning test pattern is distributed into 6 different topics with 5questions each as:
+1.PICTURE REASONING
+2.STATEMENT REASONING
+3.DATA SUFFICIENCY
+4. DATA INTERPRETATION
+5.RELATION PROBLEM"
+                      android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                  <TextView
+                      android:id="@+id/textView8"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="30dp"
+                      android:textAppearance="?android:attr/textAppearanceSmall" />
+
+              </LinearLayout>
+               
+
+          </LinearLayout>
+           <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="fill_parent"
+              android:layout_marginTop="12dp"
+              android:layout_weight="1"
+              
+              android:orientation="vertical" >
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content" >
+
+                  <TextView
+                      android:id="@+id/textView3"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="level:"
+                      android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                  <TextView
+                      android:id="@+id/textView4"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="40dp"
+                      android:text="Verbal Ability"
+                      android:textAppearance="?android:attr/textAppearanceSmall" />
+
+              </LinearLayout>
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content" >
+
+                  <TextView
+                      android:id="@+id/textView3"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Time:"
+                      android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                  <TextView
+                      android:id="@+id/textView4"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="40dp"
+                      android:text="35Minutes for 40 questions"
+                      android:textAppearance="?android:attr/textAppearanceSmall" />
+
+              </LinearLayout>
+              
+              
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal" >
+
+                  <LinearLayout
+                      android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical" >
+
+                      <TextView
+                          android:id="@+id/textView5"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Details"
+                          android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="vertical" >
+                      </LinearLayout>
+
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical" >
+                  </LinearLayout>
+
+                  <TextView
+                      android:id="@+id/textView6"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="30dp"
+                      android:text="This is an innovative approach from TCS to assess the behavior, habit and attitude of the candidates, though they are not adopting this in all of their recruitment drives. There is no particular preparation to attend this test, other than keep your thoughts and actions positive through continuous development."
+                      android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                  <TextView
+                      android:id="@+id/textView8"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="30dp"
+                      android:textAppearance="?android:attr/textAppearanceSmall" />
+
+              </LinearLayout>
+               
+
+          </LinearLayout>
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="fill_parent"
+              android:layout_marginTop="12dp"
+              android:layout_weight="1"
+              
+              android:orientation="vertical" >
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content" >
+
+                  <TextView
+                      android:id="@+id/textView3"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="level:"
+                      android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                  <TextView
+                      android:id="@+id/textView4"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="40dp"
+                      android:text="3.Technical Interview"
+                      android:textAppearance="?android:attr/textAppearanceSmall" />
+
+              </LinearLayout>
+             
+              
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal" >
+
+                  <LinearLayout
+                      android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical" >
+
+                      <TextView
+                          android:id="@+id/textView5"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Details"
+                          android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="vertical" >
+                      </LinearLayout>
+
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical" >
+                  </LinearLayout>
+
+                  <TextView
+                      android:id="@+id/textView6"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="30dp"
+                      android:text="Questions would generally intend to check your basic understanding on technology as well as your orientation towards information technology. There would not be any queries checking your deep understanding on concepts or theories or programming, but focus on fundamentals." 
+                      android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                  <TextView
+                      android:id="@+id/textView8"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="30dp"
+                      android:textAppearance="?android:attr/textAppearanceSmall" />
+
+              </LinearLayout>
+               
+
+          </LinearLayout>
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="fill_parent"
+              android:layout_marginTop="12dp"
+              android:layout_weight="1"
+              
+              android:orientation="vertical" >
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content" >
+
+                  <TextView
+                      android:id="@+id/textView3"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="level:"
+                      android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                  <TextView
+                      android:id="@+id/textView4"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="40dp"
+                      android:text="4.Personal Interview"
+                      android:textAppearance="?android:attr/textAppearanceSmall" />
+
+              </LinearLayout>
+                       
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal" >
+
+                  <LinearLayout
+                      android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical" >
+
+                      <TextView
+                          android:id="@+id/textView5"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Details"
+                          android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="vertical" >
+                      </LinearLayout>
+
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical" >
+                  </LinearLayout>
+
+                  <TextView
+                      android:id="@+id/textView6"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="30dp"
+                      android:text="This round chiefly intends to check your communication, minimal command on English and inter personal skills. The interviewer may also assess your attitude, willingness to learn and flexibility on domains as well as locations. "         
+                      android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                  <TextView
+                      android:id="@+id/textView8"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="30dp"
+                      android:textAppearance="?android:attr/textAppearanceSmall" />
+
+              </LinearLayout>
+            </LinearLayout>
+           
+      </LinearLayout>
+   
+        </ScrollView>

@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OracleAActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Welcome to Oracle. This is the place to get basic facts about the company (PDF), or to learn about how Oracle is dedicated to unleashing innovation by simplifying IT. Find out about the Executive and Board of Directors leadership teams who drive the company&apos;s direction. Learn about Oracle&apos;s History, and the Innovation and Acquisitions that will help shape its future, as well as Customer Successes and Oracle Excellence Awards winners." />
+
+</RelativeLayout>

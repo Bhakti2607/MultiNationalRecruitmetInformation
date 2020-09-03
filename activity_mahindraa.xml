@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MahindraaActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Tech Mahindra represents the connected world, offering Consulting, Digital Transformation, Integrated Engineering, Business Services and Solutions, enabling Enterprises, Associates and the Society to Rise™. We are a USD 3.7 billion company with 103,200+ professionals across 90 countries, helping 750+ global customers including several Fortune 500 companies. Our innovative services, platforms, products, solutions and reusable assets connect across a number of technologies to deliver tangible business value to our stakeholders. Tech Mahindra is winner of Forbes 2014 Asia Fab 50, Deloitte Tech Fast 50, the CIO 100 among other awards.
+
+We are part of the USD 16.9 billion Mahindra Group that employs more than 200,000 people across 100 countries. The Mahindra Group operates in key industries that drive economic growth, enjoying a leadership position in tractors, utility vehicles, information technology, financial services  and vacation ownership." />
+
+</RelativeLayout>

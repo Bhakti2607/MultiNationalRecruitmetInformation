@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IgateActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="IGATE is a global leader in providing integrated technology and operations-based solutions, headquartered in Bridgewater, New Jersey. As a trusted partner to corporations in North America, Europe and Asia Pacific, IGATE provides solutions to clients&apos; business challenges by leveraging its technology and process capabilities, underwritten by an understanding of domain and industry imperatives. With revenues over US$ 1.2 billion, and a global employee talent capital of over 33,484, we offer productized applications and platforms that provide the necessary competitive and innovation edge to clients across industries, through a combination of speed, agility and imagination. At a time when the technology landscape is changing dramatically, we believe that these three attributes will be the key guiding principles for us to navigate our way to higher value for all our stake holders.
+
+" />
+
+</RelativeLayout>

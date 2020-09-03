@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HclAActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="23dp"
+        android:text="  At the dawn of the new millennium, a unique company was born: HCL Technologies. As narrated in the video below, HCL Technologies has demonstrated remarkable growth through the recent economic downturn, emerging as one of only eight 21st century listed technology companies in the world to cross $1bn in Net Profit, $5bn in Revenue and $15bn in Market Capitalization." />
+
+</RelativeLayout>

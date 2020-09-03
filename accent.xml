@@ -1,0 +1,498 @@
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/scrollView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/a1">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical" 
+          android:weightSum="4">
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="fill_parent"
+              android:layout_weight="6.35"
+           
+              android:orientation="vertical" >
+
+              <TextView
+                  android:id="@+id/textView1"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="ACCENTURE"
+                  android:textAppearance="?android:attr/textAppearanceLarge" />
+              <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="88dp" >
+
+              <Button
+                  android:id="@+id/button2"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentLeft="true"
+                  android:layout_alignParentTop="true"
+                  android:layout_weight="4.63"
+                  android:text="About us" />
+
+              <Button
+                  android:id="@+id/button1"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentTop="true"
+                  android:layout_toRightOf="@+id/button2"
+                  android:text="Rating" />
+
+              <Button
+                  android:id="@+id/button3"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentTop="true"
+                  android:layout_marginLeft="27dp"
+                  android:layout_toRightOf="@+id/button1"
+                  android:text="weblink" />
+                  
+              </RelativeLayout>
+              
+
+              <ImageView
+                  android:id="@+id/imageView1"
+                  android:layout_width="match_parent"
+                  android:layout_height="206dp"
+                  android:src="@drawable/acce1" />
+
+              <TextView
+                  android:id="@+id/textView2"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Accenture 
+Bldg #1b 
+Raheja Mindspace 
+Madhapur 
+Hyderabad - 500 081 
+Tel: +91 40 55926000 Fax: +91 40 55926001
+                  "
+                  android:textAppearance="?android:attr/textAppearanceSmall" />
+
+              </LinearLayout>
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="fill_parent"
+              android:layout_marginTop="12dp"
+              android:layout_weight="1"
+              
+              android:orientation="vertical" >
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content" >
+
+                  <TextView
+                      android:id="@+id/textView3"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="level:"
+                      android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                  <TextView
+                      android:id="@+id/textView4"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="40dp"
+                      android:text="1.Aptitude test"
+                      android:textAppearance="?android:attr/textAppearanceSmall" />
+
+              </LinearLayout>
+              
+              
+              
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal" >
+
+                  <LinearLayout
+                      android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical" >
+
+                      <TextView
+                          android:id="@+id/textView5"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Details"
+                          android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="vertical" >
+                      </LinearLayout>
+
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical" >
+                  </LinearLayout>
+
+                  <TextView
+                      android:id="@+id/textView6"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="30dp"
+                      android:text="There are 3 sections in aptitude test. 
+•	Verbal ability 
+•	Aptitude (Quantitative) 
+•	Analytical ability (puzzles)
+                      "                   
+                      android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                  <TextView
+                      android:id="@+id/textView8"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="30dp"
+                      android:textAppearance="?android:attr/textAppearanceSmall" />
+
+              </LinearLayout>
+               
+
+          </LinearLayout>
+           <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="fill_parent"
+              android:layout_marginTop="12dp"
+              android:layout_weight="1"
+              
+              android:orientation="vertical" >
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content" >
+
+                  <TextView
+                      android:id="@+id/textView3"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="level:"
+                      android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                  <TextView
+                      android:id="@+id/textView4"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="40dp"
+                      android:text="2.Group Discussion"
+                      android:textAppearance="?android:attr/textAppearanceSmall" />
+
+              </LinearLayout>
+              
+              
+              
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal" >
+
+                  <LinearLayout
+                      android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical" >
+
+                      <TextView
+                          android:id="@+id/textView5"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Details"
+                          android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="vertical" >
+                      </LinearLayout>
+
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical" >
+                  </LinearLayout>
+
+                  <TextView
+                      android:id="@+id/textView6"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="30dp"
+                      android:text="•	How good you are at communication with others. 
+•	How you behave and interact with group. 
+•	How open minded are you. 
+•	Your listening skill. 
+•	How you put forward your views. 
+•	Your leadership and decision making skills. 
+•	Your analysis skill and subject knowledge. 
+•	Problem solving and critical thinking skill. 
+•	Your attitude and confidence."
+                                         
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                  <TextView
+                      android:id="@+id/textView8"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="30dp"
+                      android:textAppearance="?android:attr/textAppearanceSmall" />
+
+              </LinearLayout>
+               
+
+          </LinearLayout>
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="fill_parent"
+              android:layout_marginTop="12dp"
+              android:layout_weight="1"
+              
+              android:orientation="vertical" >
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content" >
+
+                  <TextView
+                      android:id="@+id/textView3"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="level:"
+                      android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                  <TextView
+                      android:id="@+id/textView4"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="40dp"
+                      android:text="3.HR Interview"
+                      android:textAppearance="?android:attr/textAppearanceSmall" />
+
+              </LinearLayout>
+             
+              
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal" >
+
+                  <LinearLayout
+                      android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical" >
+
+                      <TextView
+                          android:id="@+id/textView5"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Details"
+                          android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="vertical" >
+                      </LinearLayout>
+
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical" >
+                  </LinearLayout>
+
+                  <TextView
+                      android:id="@+id/textView6"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="30dp"
+                      android:text="In HR round queries concerning ones resume and other soft skills .The key is to be confident and gather as much information as possible about Accenture. To some people some technical questions were also asked in HR."                
+                      android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                  <TextView
+                      android:id="@+id/textView8"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="30dp"
+                      android:textAppearance="?android:attr/textAppearanceSmall" />
+
+              </LinearLayout>
+               
+
+          </LinearLayout>
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="fill_parent"
+              android:layout_marginTop="12dp"
+              android:layout_weight="1"
+              
+              android:orientation="vertical" >
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content" >
+
+                  <TextView
+                      android:id="@+id/textView3"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="level:"
+                      android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                  <TextView
+                      android:id="@+id/textView4"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="40dp"
+                      android:text="4.Technical interview"
+                      android:textAppearance="?android:attr/textAppearanceSmall" />
+
+              </LinearLayout>
+                       
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal" >
+
+                  <LinearLayout
+                      android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical" >
+
+                      <TextView
+                          android:id="@+id/textView5"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Details"
+                          android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="vertical" >
+                      </LinearLayout>
+
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical" >
+                  </LinearLayout>
+
+                  <TextView
+                      android:id="@+id/textView6"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="30dp"
+                      android:text="It is also an elimination round. The questions based on the course of study will be asked along with those about your project "                     
+                      android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                  <TextView
+                      android:id="@+id/textView8"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="30dp"
+                      android:textAppearance="?android:attr/textAppearanceSmall" />
+
+              </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="fill_parent"
+              android:layout_marginTop="12dp"
+              android:layout_weight="1"
+              
+              android:orientation="vertical" >
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content" >
+
+                  <TextView
+                      android:id="@+id/textView3"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="level:"
+                      android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                  <TextView
+                      android:id="@+id/textView4"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="40dp"
+                      android:text="5.Software Engineering (Testing). "
+                      android:textAppearance="?android:attr/textAppearanceSmall" />
+
+              </LinearLayout>
+                       
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal" >
+
+                  <LinearLayout
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical" >
+
+                      <TextView
+                          android:id="@+id/textView5"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Details"
+                          android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="vertical" >
+                      </LinearLayout>
+
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical" >
+                  </LinearLayout>
+
+                  <TextView
+                      android:id="@+id/textView6"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="30dp"
+                      android:text="This round tests your skills and abilities in programming languages that you have learned for your project, also basics in C, C++."         
+                      android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                  <TextView
+                      android:id="@+id/textView8"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="30dp"
+                      android:textAppearance="?android:attr/textAppearanceSmall" />
+                  
+
+              </LinearLayout>
+            </LinearLayout>
+           
+           
+      </LinearLayout>
+   
+        </ScrollView>
+    

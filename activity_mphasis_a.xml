@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MphasisAActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:text="Mphasis is a leading IT solutions provider, offering Applications, Business Process Outsourcing (BPO) and Infrastructure services globally through a combination of technology knowhow, domain and process expertise.
+
+Mphasis Limited (then, Mphasis BFL Limited) was formed in June 2000 after the merger of the US-based IT consulting company Mphasis Corporation (founded in 1998) and the Indian IT services company BFL Software Limited (founded in 1993)." />
+
+</RelativeLayout>
